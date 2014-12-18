@@ -1,11 +1,15 @@
 ##Codebook for tidy data
 
-Subject_ID 
-        Subject_ID code
-         1:30
+######Subject_ID
 
-Activity
+        Subject_ID code
+        
+                1:30
+
+######Activity
+
         Activity Code
+        
                 1 WALKING
                 2 WALKING_UPSTAIRS
                 3 WALKING_DOWNSTAIRS
@@ -13,267 +17,267 @@ Activity
                 5 STANDING
                 6 LAYING
 
-mean ( tBodyAcc-mean()-X )
-        Average of the average time domain signals for the body acceleration in the axis X from the    accelerometer for each Subject and Activity
+######mean ( tBodyAcc-mean()-X )
+        Average of the average time domain signals for the body acceleration in the axis X from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAcc-mean()-Y )
-        Average of the average time domain signals for the body acceleration in the axis Y from the    accelerometer for each Subject and Activity
+######mean ( tBodyAcc-mean()-Y )
+        Average of the average time domain signals for the body acceleration in the axis Y from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAcc-mean()-Z )
-        Average of the average time domain signals for the body acceleration in the axis Z from the     accelerometer for each Subject and Activity
+######mean ( tBodyAcc-mean()-Z )
+        Average of the average time domain signals for the body acceleration in the axis Z from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tGravityAcc-mean()-X )
+######mean ( tGravityAcc-mean()-X )
         Average of the average time domain signals for the gravity acceleration in the axis X from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tGravityAcc-mean()-Y )
+######mean ( tGravityAcc-mean()-Y )
         Average of the average time domain signals for the gravity acceleration in the axis Y from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tGravityAcc-mean()-Z )
+######mean ( tGravityAcc-mean()-Z )
         Average of the average time domain signals for the gravity acceleration in the axis Z from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAccJerk-mean()-X )
-        Average of the average derived time domain signal for the body acceleration in the axis X from the      accelerometer for each Subject and Activity
+######mean ( tBodyAccJerk-mean()-X )
+        Average of the average derived time domain signal for the body acceleration in the axis X from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAccJerk-mean()-Y )
-        Average of the average derived time domain signal for the body acceleration in the axis Y from the      accelerometer for each Subject and Activity
+######mean ( tBodyAccJerk-mean()-Y )
+        Average of the average derived time domain signal for the body acceleration in the axis Y from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAccJerk-mean()-Z )
-        Average of the average derived time domain signal for the body acceleration in the axis Z from the     accelerometer for each Subject and Activity
+######mean ( tBodyAccJerk-mean()-Z )
+        Average of the average derived time domain signal for the body acceleration in the axis Z from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyro-mean()-X )
+######mean ( tBodyGyro-mean()-X )
         Average of the average time domain signals for the body acceleration in the axis X from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyro-mean()-Y )
+######mean ( tBodyGyro-mean()-Y )
         Average of the average time domain signals for the body acceleration in the axis Y from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyro-mean()-Z )
+######mean ( tBodyGyro-mean()-Z )
         Average of the average time domain signals for the body acceleration in the axis Z from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyroJerk-mean()-X )
+######mean ( tBodyGyroJerk-mean()-X )
         Average of the average derived time domain signal for the body acceleration in the axis X from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyroJerk-mean()-Y )
+######mean ( tBodyGyroJerk-mean()-Y )
         Average of the average derived time domain signal for the body acceleration in the axis Y from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyroJerk-mean()-Z )
+######mean ( tBodyGyroJerk-mean()-Z )
         Average of the average derived time domain signal for the body acceleration in the axis Z from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAccMag-mean() )
+######mean ( tBodyAccMag-mean() )
         Average of the average magnitude of the time domain signal for the body acceleration in the axis XYZ from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tGravityAccMag-mean() )
+######mean ( tGravityAccMag-mean() )
         Average of the average magnitude of the time domain signal for the Gravity acceleration in the axis XYZ from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAccJerkMag-mean() )
+######mean ( tBodyAccJerkMag-mean() )
         Average of the average magnitude of the derived time domain signal for the body acceleration in the axis XYZ from the accelerometer for each Subject And activity
         Interger [-1,1]
         
-mean ( tBodyGyroMag-mean() )
+######mean ( tBodyGyroMag-mean() )
         Average of the average magnitude of the time domain signal for the body acceleration in the axis XYZ from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyroJerkMag-mean() )
+######mean ( tBodyGyroJerkMag-mean() )
         Average of the average magnitude of the derived time domain signal for the body acceleration in the axis XYZ from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAcc-mean()-X )
-        Average of the average frequency domain signals for the body acceleration in the axis X from the    accelerometer for each Subject and Activity        
+######mean ( fBodyAcc-mean()-X )
+        Average of the average frequency domain signals for the body acceleration in the axis X from the accelerometer for each Subject and Activity        
         Interger [-1,1]
         
-mean ( fBodyAcc-mean()-Y )
-        Average of the average frequency domain signals for the body acceleration in the axis Y from the    accelerometer for each Subject and Activity 
+######mean ( fBodyAcc-mean()-Y )
+        Average of the average frequency domain signals for the body acceleration in the axis Y from the accelerometer for each Subject and Activity 
         Interger [-1,1]
         
-mean ( fBodyAcc-mean()-Z )
-        Average of the average frequency domain signals for the body acceleration in the axis Z from the    accelerometer for each Subject and Activity 
+######mean ( fBodyAcc-mean()-Z )
+        Average of the average frequency domain signals for the body acceleration in the axis Z from the accelerometer for each Subject and Activity 
         Interger [-1,1]
         
-mean ( fBodyAccJerk-mean()-X )
+######mean ( fBodyAccJerk-mean()-X )
         Average of the average derived frequency domain signal for the body acceleration in the axis X from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAccJerk-mean()-Y )
+######mean ( fBodyAccJerk-mean()-Y )
         Average of the average derived frequency domain signal for the body acceleration in the axis Y from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAccJerk-mean()-Z )
+######mean ( fBodyAccJerk-mean()-Z )
         Average of the average derived frequency domain signal for the body acceleration in the axis Z from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyGyro-mean()-X )
+######mean ( fBodyGyro-mean()-X )
         Average of the average frequency domain signals for the body acceleration in the axis X from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyGyro-mean()-Y )
+######mean ( fBodyGyro-mean()-Y )
         Average of the average frequency domain signals for the body acceleration in the axis Y from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyGyro-mean()-Z )
+######mean ( fBodyGyro-mean()-Z )
         Average of the average frequency domain signals for the body acceleration in the axis Z from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAccMag-mean() )
+######mean ( fBodyAccMag-mean() )
         Average of the average magnitude of the frequency domain signal for the body acceleration in the axis XYZ from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyBodyAccJerkMag-mean() )
+######mean ( fBodyBodyAccJerkMag-mean() )
         Average of the average magnitude of the derived frequency domain signal for the body acceleration in the axis XYZ from the accelerometer for each Subject And activity
         Interger [-1,1]
         
-mean ( fBodyBodyGyroMag-mean() )
+######mean ( fBodyBodyGyroMag-mean() )
         Average of the average magnitude of the frequency domain signal for the body acceleration in the axis XYZ from the gyroscope for each Subject And activity
         Interger [-1,1]
         
-mean ( fBodyBodyGyroJerkMag-mean() )
+######mean ( fBodyBodyGyroJerkMag-mean() )
         Average of the average magnitude of the derived frequency domain signal for the body acceleration in the axis XYZ from the gyroscope for each Subject And activity
         Interger [-1,1]
         
-mean ( tBodyAcc-std()-X )
+######mean ( tBodyAcc-std()-X )
         Average of the standard desviation of time domain signals for the body acceleration in the axis X from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAcc-std()-Y )
+######mean ( tBodyAcc-std()-Y )
         Average of the standard desviation of time domain signals for the body acceleration in the axis Y from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAcc-std()-Z )
+######mean ( tBodyAcc-std()-Z )
         Average of the standard desviation of time domain signals for the body acceleration in the axis Z from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tGravityAcc-std()-X )
+######mean ( tGravityAcc-std()-X )
         Average of the standard desviation of time domain signals for the gravity acceleration in the axis X from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tGravityAcc-std()-Y )
+######mean ( tGravityAcc-std()-Y )
         Average of the standard desviation of time domain signals for the gravity acceleration in the axis Y from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tGravityAcc-std()-Z )
+######mean ( tGravityAcc-std()-Z )
         Average of the standard desviation of time domain signals for the gravity acceleration in the axis Z from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAccJerk-std()-X )
+######mean ( tBodyAccJerk-std()-X )
         Average of the standard desviation of derived time domain signal for the body acceleration in the axis X from the accelerometer for each Subject and Activity        
         Interger [-1,1]
         
-mean ( tBodyAccJerk-std()-Y )
+######mean ( tBodyAccJerk-std()-Y )
         Average of the standard desviation of derived time domain signal for the body acceleration in the axis Y from the accelerometer for each Subject and Activity 
         Interger [-1,1]
         
-mean ( tBodyAccJerk-std()-Z )
+######mean ( tBodyAccJerk-std()-Z )
         Average of the standard desviation of derived time domain signal for the body acceleration in the axis Z from the accelerometer for each Subject and Activity 
         Interger [-1,1]
         
-mean ( tBodyGyro-std()-X )
+######mean ( tBodyGyro-std()-X )
         Average of the standard desviation of time domain signals for the body acceleration in the axis X from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyro-std()-Y )
+######mean ( tBodyGyro-std()-Y )
         Average of the standard desviation of time domain signals for the body acceleration in the axis Y from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyro-std()-Z )
+######mean ( tBodyGyro-std()-Z )
         Average of the standard desviation of time domain signals for the body acceleration in the axis Z from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyroJerk-std()-X )
+######mean ( tBodyGyroJerk-std()-X )
         Average of the standard desviation of derived time domain signal for the body acceleration in the axis X from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyroJerk-std()-Y )
+######mean ( tBodyGyroJerk-std()-Y )
         Average of the standard desviation of derived time domain signal for the body acceleration in the axis Y from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyroJerk-std()-Z )
+######mean ( tBodyGyroJerk-std()-Z )
         Average of the standard desviation of derived time domain signal for the body acceleration in the axis Z from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAccMag-std() )
+######mean ( tBodyAccMag-std() )
         Average of the standard desviation of magnitude of the time domain signal for the body acceleration in the axis XYZ from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tGravityAccMag-std() )
+######mean ( tGravityAccMag-std() )
         Average of the standard desviation of magnitude of the time domain signal for the Gravity acceleration in the axis XYZ from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyAccJerkMag-std() )
+######mean ( tBodyAccJerkMag-std() )
         Average of the standard desviation of magnitude of the derived time domain signal for the body acceleration in the axis XYZ from the accelerometer for each Subject And activity
         Interger [-1,1]
         
-mean ( tBodyGyroMag-std() )
+######mean ( tBodyGyroMag-std() )
         Average of the standard desviation of magnitude of the time domain signal for the body acceleration in the axis XYZ from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( tBodyGyroJerkMag-std() )
+######mean ( tBodyGyroJerkMag-std() )
         Average of the standard desviation of magnitude of the derived time domain signal for the body acceleration in the axis XYZ from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAcc-std()-X )
+######mean ( fBodyAcc-std()-X )
         Average of the standard desviation of frequency domain signals for the body acceleration in the axis X from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAcc-std()-Y )
+######mean ( fBodyAcc-std()-Y )
         Average of the standard desviation of frequency domain signals for the body acceleration in the axis Y from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAcc-std()-Z )
+######mean ( fBodyAcc-std()-Z )
         Average of the standard desviation of frequency domain signals for the body acceleration in the axis Z from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAccJerk-std()-X )
+######mean ( fBodyAccJerk-std()-X )
         Average of the standard desviation of derived frequency domain signal for the body acceleration in the axis X from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAccJerk-std()-Y )
+######mean ( fBodyAccJerk-std()-Y )
         Average of the standard desviation of derived frequency domain signal for the body acceleration in the axis Y from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAccJerk-std()-Z )
+######mean ( fBodyAccJerk-std()-Z )
         Average of the standard desviation of derived frequency domain signal for the body acceleration in the axis Z from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyGyro-std()-X )
+######mean ( fBodyGyro-std()-X )
         Average of the standard desviation of frequency domain signals for the body acceleration in the axis X from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyGyro-std()-Y )
+######mean ( fBodyGyro-std()-Y )
         Average of the standard desviation of frequency domain signals for the body acceleration in the axis Y from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyGyro-std()-Z )
+######mean ( fBodyGyro-std()-Z )
         Average of the standard desviation of frequency domain signals for the body acceleration in the axis Z from the gyroscope for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyAccMag-std() )
+######mean ( fBodyAccMag-std() )
         Average of the standard desviation of magnitude of the frequency domain signal for the body acceleration in the axis XYZ from the accelerometer for each Subject and Activity
         Interger [-1,1]
         
-mean ( fBodyBodyAccJerkMag-std() )
+######mean ( fBodyBodyAccJerkMag-std() )
         Average of the standard desviation of magnitude of the derived frequency domain signal for the body acceleration in the axis XYZ from the accelerometer for each Subject And activity
         Interger [-1,1]
         
-mean ( fBodyBodyGyroMag-std() )
+######mean ( fBodyBodyGyroMag-std() )
         Average of the standard desviation of magnitude of the frequency domain signal for the body acceleration in the axis XYZ from the gyroscope for each Subject And activity
         Interger [-1,1]
         
-mean ( fBodyBodyGyroJerkMag-std() )
+######mean ( fBodyBodyGyroJerkMag-std() )
         Average of the standard desviation of magnitude of the derived frequency domain signal for the body acceleration in the axis XYZ from the gyroscope for each Subject And activity
         Interger [-1,1]
         
